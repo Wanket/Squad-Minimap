@@ -73,3 +73,5 @@ def onMessage(func, self, message, channel):
 modSM = ModSM()
 InputHandler.g_instance.onKeyDown += handleKeyEvent
 InputHandler.g_instance.onKeyUp += handleKeyEvent
+
+print 'Squad Minimap loaded'
